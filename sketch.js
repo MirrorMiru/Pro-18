@@ -30,6 +30,7 @@ function setup() {
   path = createSprite(width / 2, height / 2);
   path.addImage(pathImg);
   path.velocityY = 4;
+  path.scale = 3
 
 
   //creating boy running
